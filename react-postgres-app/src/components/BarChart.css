@@ -1,0 +1,13 @@
+.chart-container {
+    display: flex;
+    justify-content: space-between; /* ให้กราฟทั้งสองอยู่ข้างกัน */
+    align-items: center;
+    
+ 
+    
+  }
+
+  canvas {
+    width: 100% !important; /* บังคับให้ canvas กว้างเต็ม */
+    height: 100% !important; /* บังคับให้ canvas สูงเต็ม */
+  }

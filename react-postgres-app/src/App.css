@@ -1,0 +1,102 @@
+
+
+.table-container {
+  flex: 1 1 45%;
+  padding: 20px;
+ ride: 10px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+} */
+
+.App {
+  text-align: center;
+}
+
+
+.chart-container {
+  width: 400px;
+  flex: 1 1 80%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f0f0f0; /* ตัวอย่างสีพื้นหลัง */
+  border: 1px solid #ccc; /* ตัวอย่างขอบ */
+  display: flex;
+  justify-content: center; /* จัดกลางในแนวนอน */
+  align-items: center; /* จัดกลางในแนวตั้ง */
+  height: 300px; /* ใช้ความสูงของหน้าจอ */
+}
+
+
+
+.container {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  
+}
+
+body {
+  background-color: black;
+}
+
+
+
+.boxA {
+  width: 1500px;
+  height: 930px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.boxB {
+  width: 500px;
+  height: 820px;
+  background-color: blue;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxC {
+  width: 500px;
+  height: 930px;
+ 
+  top: 0;
+  right: 0;
+  padding: 5px;
+  background-color: white;
+  border-top-left-radius:20px;
+  border-bottom-left-radius:10px;
+  
+  
+}
+
+.text-container {
+  width: 400px;
+  height: 300px;
+  background-color: #f0f0f0; /* ตัวอย่างสีพื้นหลัง */
+  text-align: center;
+}
+
+
+
